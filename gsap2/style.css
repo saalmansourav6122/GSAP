@@ -27,13 +27,23 @@ li {
 .commonBox {
   width: 250px;
   height: 250px;
+  border-radius: 30%;
+}
+.gsap_box1 {
+  background-color: #000;
+}
+.gsap_box2 {
+  background-color: #16f8ed;
+}
+.gsap_box3 {
+  background-color: #aabb11;
 }
 .box1 {
   background: #fff;
 }
 .box2 {
-  background: #be0e0e;
+  background: #0e6dac;
 }
 .box3 {
-  background: #114b06;
+  background: #47f325a4;
 }

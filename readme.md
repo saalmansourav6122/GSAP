@@ -75,3 +75,46 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/gsap.git
    ```
+
+# GSAP ScrollTrigger Demo 🚀
+
+Welcome to the **GSAP ScrollTrigger** demo! This project demonstrates the power of [GSAP's ScrollTrigger plugin](https://greensock.com/scrolltrigger/) to create engaging scroll-based animations for modern web designs.
+
+## 📖 About
+
+**ScrollTrigger** is a plugin for GSAP that lets you create scroll-driven animations with ease. Whether you want to pin elements, animate them as they enter the viewport, or create parallax effects, ScrollTrigger is your go-to tool. This demo features:
+- Smooth scrolling animations.
+- Pinning elements during scroll.
+- Triggering animations at specific scroll positions.
+
+## 🎯 Features
+
+- **Dynamic Animations**: Interactive effects based on user scrolling.
+- **Pinning Elements**: Keep elements in place during scroll actions.
+- **Customizable Triggers**: Control animations with specific start and end points.
+- **Marker Debugging**: Visual markers to aid in development.
+
+## 🛠 Technologies Used
+
+- **HTML5**: Structure for the web page.
+- **CSS3**: Styling for layout and design.
+- **GSAP**: JavaScript library for animations.
+- **ScrollTrigger**: GSAP plugin for scroll-based effects.
+
+## 💻 Code Example
+
+Here’s a quick look at how `ScrollTrigger` is implemented:
+
+```javascript
+gsap.to(".box", {
+  x: 500,
+  duration: 2,
+  scrollTrigger: {
+    trigger: ".box",
+    start: "top center",
+    end: "bottom center",
+    scrub: true,
+    markers: true,
+    pin: true,
+  },
+});

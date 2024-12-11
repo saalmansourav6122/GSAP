@@ -8,10 +8,7 @@
 html,
 body {
   height: 100vh;
-  width: 100vw;
-  background: #000;
   color: #fff;
-  overflow-x: hidden;
 }
 ul,
 li {
@@ -33,17 +30,34 @@ li {
   background-color: #000;
 }
 .gsap_box2 {
-  background-color: #16f8ed;
-}
-.gsap_box3 {
-  background-color: #aabb11;
+  background-color: #0eee19;
 }
 .box1 {
   background: #fff;
 }
 .box2 {
-  background: #0e6dac;
+  background: #ced101;
 }
 .box3 {
-  background: #47f325a4;
+  background: linear-gradient(45deg, #47f325, #32a852);
+  overflow: hidden;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; */
+}
+
+.box3 h2 {
+  font-size: 20vw;
+  padding-left: 50%;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.box4 {
+  background-color: aqua;
 }

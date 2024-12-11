@@ -22,6 +22,7 @@ gsap.from(".box2 .gsap_box2", {
 gsap.to(".box3 h2", {
   x: "-150%", // Use x instead of transform for better performance
   duration: 2,
+  delay: 2,
   scrollTrigger: {
     trigger: ".box3",
     scroller: "body",

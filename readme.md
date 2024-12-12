@@ -120,6 +120,7 @@ gsap.to(".box", {
   },
 });
 
+---
 # Slick SVG Animations 🎨
 
 This project demonstrates how to create interactive SVG animations using **GSAP (GreenSock Animation Platform)**. The animation dynamically morphs an SVG path based on user interactions, such as mouse movements and mouse leave events.

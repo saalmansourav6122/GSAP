@@ -119,7 +119,6 @@ gsap.to(".box", {
     pin: true,
   },
 });
-----------------
 
 # Slick SVG Animations 🎨
 

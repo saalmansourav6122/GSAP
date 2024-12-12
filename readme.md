@@ -106,7 +106,7 @@ Welcome to the **GSAP ScrollTrigger** demo! This project demonstrates the power 
 
 Here’s a quick look at how `ScrollTrigger` is implemented:
 
-````javascript
+```javascript
 gsap.to(".box", {
   x: 500,
   duration: 2,
@@ -132,6 +132,7 @@ This project demonstrates how to create interactive SVG animations using **GSAP 
 - **Responsive Design**: The animation adapts to different screen sizes for a consistent experience.
 
 ## 🚀 Live Demo
+
 Check out the live demo [here](#) (Replace `#` with your live demo URL).
 
 ## 🛠️ Technologies Used
@@ -149,4 +150,4 @@ Check out the live demo [here](#) (Replace `#` with your live demo URL).
 ├── style.css       # CSS for styling the page
 ├── index.js        # JavaScript file with GSAP animations
 └── README.md       # Documentation for the project
-````
+```

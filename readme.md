@@ -83,6 +83,7 @@ Welcome to the **GSAP ScrollTrigger** demo! This project demonstrates the power 
 ## 📖 About
 
 **ScrollTrigger** is a plugin for GSAP that lets you create scroll-driven animations with ease. Whether you want to pin elements, animate them as they enter the viewport, or create parallax effects, ScrollTrigger is your go-to tool. This demo features:
+
 - Smooth scrolling animations.
 - Pinning elements during scroll.
 - Triggering animations at specific scroll positions.
@@ -105,7 +106,7 @@ Welcome to the **GSAP ScrollTrigger** demo! This project demonstrates the power 
 
 Here’s a quick look at how `ScrollTrigger` is implemented:
 
-```javascript
+````javascript
 gsap.to(".box", {
   x: 500,
   duration: 2,
@@ -118,3 +119,34 @@ gsap.to(".box", {
     pin: true,
   },
 });
+----------------
+
+# Slick SVG Animations 🎨
+
+This project demonstrates how to create interactive SVG animations using **GSAP (GreenSock Animation Platform)**. The animation dynamically morphs an SVG path based on user interactions, such as mouse movements and mouse leave events.
+
+## 🌟 Features
+
+- **Interactive Path Animation**: The SVG path morphs in response to mouse movement, creating a fluid and engaging visual effect.
+- **Smooth Transitions**: Animations leverage GSAP's powerful easing functions for seamless transitions.
+- **Responsive Design**: The animation adapts to different screen sizes for a consistent experience.
+
+## 🚀 Live Demo
+Check out the live demo [here](#) (Replace `#` with your live demo URL).
+
+## 🛠️ Technologies Used
+
+- **HTML5**: Markup structure for the page.
+- **CSS3**: Styles for layout and appearance.
+- **SVG**: Scalable vector graphics for interactive animations.
+- **GSAP**: JavaScript animation library for smooth and performant animations.
+
+## 📂 Project Structure
+
+```plaintext
+📁 slick-svg-animations
+├── index.html      # HTML file containing the SVG and structure
+├── style.css       # CSS for styling the page
+├── index.js        # JavaScript file with GSAP animations
+└── README.md       # Documentation for the project
+````

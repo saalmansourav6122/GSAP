@@ -149,5 +149,5 @@ Check out the live demo [here](#) (Replace `#` with your live demo URL).
 ├── index.html      # HTML file containing the SVG and structure
 ├── style.css       # CSS for styling the page
 ├── index.js        # JavaScript file with GSAP animations
-└── README.md       # Documentation for the project
+
 ```

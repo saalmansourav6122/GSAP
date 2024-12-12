@@ -133,7 +133,7 @@ This project demonstrates how to create interactive SVG animations using **GSAP 
 
 ## 🚀 Live Demo
 
-Check out the live demo [here](https://glittery-chimera-89197c.netlify.app/) (`https://glittery-chimera-89197c.netlify.app/` ).
+Check out the live demo [here](https://glittery-chimera-89197c.netlify.app/)
 
 ## 🛠️ Technologies Used
 

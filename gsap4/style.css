@@ -28,9 +28,6 @@ body {
   background-color: #fff;
   z-index: 9;
   border: 2px solid #4e1c1c96;
-  z-index: 9;
-  pointer-events: none; /* Allows interaction with elements below */
-  transition: transform 0.15s ease-out; /* Smooth movement */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +44,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  z-index: 18;
 }
 .image {
   width: 50vw;

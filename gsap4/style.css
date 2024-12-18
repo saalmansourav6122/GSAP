@@ -31,6 +31,10 @@ body {
   z-index: 9;
   pointer-events: none; /* Allows interaction with elements below */
   transition: transform 0.15s ease-out; /* Smooth movement */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5px;
 }
 .cursor::after {
   content: "";
@@ -43,6 +47,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid rgba(255, 255, 255, 0.5);
+  z-index: 18;
 }
 .image {
   width: 50vw;
@@ -54,6 +59,7 @@ body {
   height: 100%;
   background-position: center;
   background-size: cover;
+  object-fit: cover;
 }
 .overlay {
   position: absolute;

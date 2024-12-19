@@ -14,8 +14,22 @@ body {
   margin: 0 auto;
   max-width: 1250px;
 }
+ul,
+li {
+  list-style: none;
+  color: #000;
+}
 .nav {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
+}
+
+ul {
+  height: 100%;
+  width: 40%;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 0;
 }

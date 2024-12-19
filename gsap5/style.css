@@ -58,9 +58,10 @@ ul li {
   font-style: oblique;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.8s ease-in-out;
 }
 ul li:hover {
-  transform: scale(1.5);
+  transform: translateX(100px) !important;
   transition: all 0.8s ease-in-out;
 }
 ul i {

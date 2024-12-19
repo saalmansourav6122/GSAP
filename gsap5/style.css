@@ -14,7 +14,6 @@ body {
 ul,
 li {
   list-style: none;
-  color: #000;
 }
 .main {
   background-image: url(./pexels-pixabay-355465.jpg);
@@ -41,6 +40,29 @@ ul {
   top: 0;
   backdrop-filter: blur(5px);
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   gap: 30px;
+}
+ul li {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  cursor: pointer;
+}
+ul i {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  cursor: pointer;
+}
+ul li:hover {
+  transform: scale(1.5);
+  transition: all 0.8s ease-in-out;
 }

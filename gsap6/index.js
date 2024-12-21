@@ -1,20 +1,22 @@
 window.addEventListener("wheel", (dats) => {
   if (dats.deltaY < 0) {
     gsap.to(".marque", {
-      transform: "translateX(-200%)",
+      x: "-200%",
       repeat: -1,
       duration: 4,
-      ease: "none",
+      ease: "power1.inOut",
+      yoyo: true,
     });
     gsap.to(".marque img", {
       rotate: 180,
     });
   } else {
     gsap.to(".marque", {
-      transform: "translateX(0%)",
+      x: "0%",
       repeat: -1,
       duration: 4,
-      ease: "none",
+      ease: "power1.inOut",
+      yoyo: true,
     });
     gsap.to(".marque img", {
       rotate: 0,

@@ -4,8 +4,7 @@ window.addEventListener("wheel", (dats) => {
       x: "-200%",
       repeat: -1,
       duration: 4,
-      ease: "power1.inOut",
-      yoyo: true,
+      ease: "none",
     });
     gsap.to(".marque img", {
       rotate: 180,
@@ -15,8 +14,7 @@ window.addEventListener("wheel", (dats) => {
       x: "0%",
       repeat: -1,
       duration: 4,
-      ease: "power1.inOut",
-      yoyo: true,
+      ease: "none",
     });
     gsap.to(".marque img", {
       rotate: 0,

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html,
+body {
+  color: #000;
+  background: #000;
+}
+
+.page1,
+.page2,
+.page3 {
+  width: 100%;
+  height: 100vh;
+}
+.page2 .move {
+  background: #d9ff06;
+  display: flex;
+  padding: 3vw 0;
+  overflow: hidden;
+}
+.marque {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 0 1.5vw;
+  transform: translateX(-100%);
+}
+
+.marque h1 {
+  font-size: 70px;
+}
+.marque img {
+  height: 80px;
+}

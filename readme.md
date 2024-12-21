@@ -151,3 +151,46 @@ Check out the live demo [here](https://glittery-chimera-89197c.netlify.app/)
 ├── index.js        # JavaScript file with GSAP animations
 
 ```
+
+# Creating a README.md file with the given content
+
+# Content for the README.md
+
+readme_content = """
+
+# GSAP Marquee Animation
+
+A smooth scrolling animation created with **GSAP** (GreenSock Animation Platform) that displays a marquee effect triggered by mouse wheel events. The animation dynamically updates the position and rotation of elements, providing a visually engaging scrolling experience.
+
+## Demo
+
+[Live Demo Link](#)  
+_(Replace `#` with your demo URL)_
+
+## Features
+
+- Dynamic marquee animation with GSAP.
+- Wheel event-controlled direction for smooth scrolling.
+- Rotating arrows for visual feedback.
+- Fully responsive layout.
+- Simple and lightweight codebase.
+
+## Technologies Used
+
+- **HTML**: Markup structure for the project.
+- **CSS**: Styling for responsive and appealing visuals.
+- **JavaScript (GSAP)**: Smooth animations and interactions.
+
+## Preview
+
+![Preview Screenshot](#)  
+_(Replace `#` with your screenshot URL)_
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```

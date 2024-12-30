@@ -36,6 +36,7 @@ function pageOneAnimation() {
     duration: 0.4,
   });
 }
+pageOneAnimation();
 
 var tl2 = gsap.timeline({
   scrollTrigger: {
@@ -52,3 +53,24 @@ tl2.from(".service", {
   opacity: 0,
   duration: 0.4,
 });
+
+tl2.from(
+  ".left",
+  {
+    x: -100,
+    opacity: 0,
+    duration: 0.4,
+    stagger: 0.2,
+  },
+  "rightandleft"
+);
+tl2.from(
+  ".right",
+  {
+    x: 100,
+    opacity: 0,
+    duration: 0.4,
+    stagger: 0.2,
+  },
+  "rightandleft"
+);
